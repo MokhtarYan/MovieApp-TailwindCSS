@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   const Links = [
@@ -21,7 +22,7 @@ const Footer = () => {
       ],
     },
     {
-      title: "My account",
+      title: "My Account",
       links: [
         { name: "Dashboard", link: "/dashboard" },
         { name: "My Favourites", link: "/favourite" },
@@ -42,8 +43,36 @@ const Footer = () => {
               <h3 className="text-md lg:leading-7 font-medium mb-4 sm:mb-5 lg:mb-6 pb-0.5">
                 {link.title}
               </h3>
+              <ul className="text-sm flex flex-col space-y-3 ">
+                {link.links.map((text, index) => (
+                  <li key={index} className="felx items-baseline">
+                    <Link
+                      to={text.link}
+                      className="text-border inline-block w-full hover:text-subMain"
+                    >
+                      {text.name}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
             </div>
           ))}
+          {/* <div className="pb-3.5 sm:pb-0 col-span-1 md:col-span-2 lg:col-span-3">
+            <Link to="/" className="flex justify-center items-center">
+              <img
+                src="https://res.cloudinary.com/dqzabjiql/image/upload/v1687132547/310-3108734_roll-set-eps-file-film-rolls-vector-png-removebg-preview_ldkrek.png"
+                alt=""
+                className="w-2/4 object-contain h-12"
+              />
+              CINEVERSE
+            </Link>
+            <p className="leading-7 text-sm text-border mt-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+              laboriosam cupiditate ducimus, odit laudantium, voluptatem
+              obcaecati vitae quisquam dicta aut distinctio fuga officia?
+              Maiores nam, tempora quia a qui delectus.
+            </p>
+          </div> */}
         </div>
       </div>
     </div>
