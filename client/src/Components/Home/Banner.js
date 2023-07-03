@@ -28,7 +28,7 @@ const Banner = () => {
               <h1 className="xl:text-4xl truncate capitalize font-sans sm:text-2xl text-xl font-bold ">
                 {movie.name}
               </h1>
-              <div className="flex items-center gap-5 text-dryGray">
+              <div className="flex items-center gap-5 text-white">
                 <FlexMovieItems movie={movie} />
               </div>
               <div className="flex gap-5 items-center">
