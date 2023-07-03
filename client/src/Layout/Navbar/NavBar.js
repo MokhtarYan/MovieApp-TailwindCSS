@@ -15,11 +15,10 @@ const NavBar = () => {
             {/* Logo */}
             <Link to="/" className="flex justify-center items-center">
               <img
-                src="https://res.cloudinary.com/dqzabjiql/image/upload/v1687132547/310-3108734_roll-set-eps-file-film-rolls-vector-png-removebg-preview_ldkrek.png"
+                src="https://res.cloudinary.com/dqzabjiql/image/upload/v1688316416/newLogoo_lfkarx.png"
                 className="w-full h-12 object-contain"
                 alt=""
               />
-              CINEVERSE
             </Link>
           </div>
           {/* Search form */}

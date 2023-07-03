@@ -34,7 +34,7 @@ const Footer = () => {
   return (
     <div className="bg-dry py-4 border-t-2  border-black ">
       <div className="container mx-auto px-2">
-        <div className="grid gris-cols-2 md:grid-cols-7 xl:grid-cols-12 gap-5 sm:gap-9 lg:gap-7 py-10 justify-between">
+        <div className="grid grid-cols-2 md:grid-cols-7 xl:grid-cols-12 gap-4 sm:gap-9 lg:gap-7 py-10 justify-between">
           {Links.map((link, index) => (
             <div
               key={index}
@@ -58,20 +58,13 @@ const Footer = () => {
             </div>
           ))}
           {/* <div className="pb-3.5 sm:pb-0 col-span-1 md:col-span-2 lg:col-span-3">
-            <Link to="/" className="flex justify-center items-center">
+            <Link to="/">
               <img
-                src="https://res.cloudinary.com/dqzabjiql/image/upload/v1687132547/310-3108734_roll-set-eps-file-film-rolls-vector-png-removebg-preview_ldkrek.png"
+                src="https://res.cloudinary.com/dqzabjiql/image/upload/v1688316416/newLogoo_lfkarx.png"
                 alt=""
-                className="w-2/4 object-contain h-12"
+                className="w-3/4 object-contain h-full"
               />
-              CINEVERSE
             </Link>
-            <p className="leading-7 text-sm text-border mt-3">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
-              laboriosam cupiditate ducimus, odit laudantium, voluptatem
-              obcaecati vitae quisquam dicta aut distinctio fuga officia?
-              Maiores nam, tempora quia a qui delectus.
-            </p>
           </div> */}
         </div>
       </div>
