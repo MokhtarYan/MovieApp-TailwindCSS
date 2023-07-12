@@ -10,7 +10,7 @@ export const Movies = [
     language: "English",
     year: "2023",
     time: "2h 22m",
-    rate: "7.3",
+    rate: "3.65",
     reviews: "22",
   },
   {
@@ -23,7 +23,7 @@ export const Movies = [
     language: "English",
     year: "2023",
     time: "2h",
-    rate: "7.6",
+    rate: "3.8",
     reviews: "22",
   },
   {
@@ -37,21 +37,34 @@ export const Movies = [
     language: "English",
     year: "2023",
     time: "2h 50m",
-    rate: "7.9",
+    rate: "3.95",
     reviews: "22",
   },
   {
     name: "The Super Mario Bros. Movie  ",
     desc: "While working underground to fix a water main, Brooklyn plumbers—and brothers—Mario and Luigi are transported down a mysterious pipe and wander into a magical new world. But when the brothers are separated, Mario embarks on an epic quest to find Luigi.",
     titleImage:
-      "https://upload.wikimedia.org/wikipedia/commons/3/3d/Fast_X_logo.png",
+      "https://cdn.vox-cdn.com/thumbor/9KzRKQsfuGxZsy1gMwydTvjsqBw=/0x0:1920x960/fit-in/1200x600/cdn.vox-cdn.com/uploads/chorus_asset/file/24080985/super_mario_bros_movie.jpg",
     image:
       "https://attractionsmagazine.com/wp-content/uploads/2023/04/Super-Mario-Bros.-Movie-Rainbow-Nintendo-Illumination-Universal.jpg",
     category: "Animation, Family, Adventure, Fantasy, Comedy",
     language: "English",
     year: "2023",
     time: "1h 33m",
-    rate: "7.8",
+    rate: "3.9",
+    reviews: "22",
+  },
+  {
+    name: "Guardians of the Galaxy Vol. 3 ",
+    desc: "Peter Quill, still reeling from the loss of Gamora, must rally his team around him to defend the universe along with protecting one of their own. A mission that, if not completed successfully, could quite possibly lead to the end of the Guardians as we know them.",
+    titleImage:
+      "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/r2J02Z2OpNTctfOSN1Ydgii51I3.jpg",
+    image: "https://i.samaaenglish.tv/primary/2023/04/301806001ab825d.jpg",
+    category: "Action, Science Fiction, Adventure",
+    language: "English",
+    year: "2023",
+    time: "2h 30m",
+    rate: "4.1",
     reviews: "22",
   },
 ];

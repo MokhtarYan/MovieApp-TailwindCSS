@@ -1,21 +1,22 @@
 import React from "react";
+import FlexMovieItems from "../FlexMovieItems";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Movies } from "../../Data/MoviesData";
-import { Autoplay } from "swiper";
-import FlexMovieItems from "../FlexMovieItems";
-import { FaHeart } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { FaHeart } from "react-icons/fa";
+import { Autoplay } from "swiper";
 const Banner = () => {
   return (
-    <div className="relative w-full flex justify-center">
+    <div className="relative w-full">
       <Swiper
         direction="horizontal"
+        spaceBetween={0}
         speed={1000}
         slidesPerView={1}
         loop={true}
-        autoplay={{ delay: 4000, disableOnInteraction: false }}
-        className="w-4/6 xl:h-96 bg:dry lg:h-64 h-48 "
         modules={[Autoplay]}
+        autoplay={{ delay: 4000, disableOnInteraction: false }}
+        className="w-full xl:h-96 bg:dry lg:h-64 h-48"
       >
         {Movies.map((movie, index) => (
           <SwiperSlide key={index} className="relative rounded overflow-hidden">
