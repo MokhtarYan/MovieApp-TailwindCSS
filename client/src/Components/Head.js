@@ -2,7 +2,7 @@ import React from "react";
 
 const Head = ({ title }) => {
   return (
-    <div className="w-full bg-deepGray lg:h-64 relative overflow-hidden rounded-md">
+    <div className="w-full bg-deepGray lg:h-64 h-40 relative overflow-hidden rounded-md">
       <img
         src="https://res.cloudinary.com/dqzabjiql/image/upload/v1689098270/head_arasc0.jpg"
         alt=""

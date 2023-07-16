@@ -25,12 +25,7 @@ const AboutUs = () => {
                   veniam, distinctio, neque, atque tempore minus tenetur vitae
                   quaerat. Modi quo perferendis culpa totam?
                 </p>
-                <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Facilis libero labore earum aliquam velit veritatis, nulla,
-                  nobis ducimus eveniet laudantium consectetur, laborum tempora
-                  error animi? Non tempora dolor voluptatem velit.
-                </p>
+
                 <div className="grid md:grid-cols-2 gap-6 mt-8">
                   <div className="p-8 bg-dry rounded-lg">
                     <span className="text-3xl block font-extrabold ">10k</span>
@@ -51,6 +46,13 @@ const AboutUs = () => {
                   </div>
                 </div>
               </div>
+            </div>
+            <div>
+              <img
+                src="https://res.cloudinary.com/dqzabjiql/image/upload/v1689121374/aboutus_s1wviu.jpg"
+                alt=""
+                className="h-full w-full object-cover"
+              />
             </div>
           </div>
         </div>
